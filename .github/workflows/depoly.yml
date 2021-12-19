@@ -31,8 +31,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           # GitHub 密钥
-          ACCESS_TOKEN: ${{ secrets.token }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # GitHub Pages 读取的分支
           BRANCH: gh-pages
           # 静态文件所在目录
-          FOLDER: dist
+          FOLDER: docs/.vuepress/dist
