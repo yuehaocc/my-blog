@@ -1,6 +1,35 @@
 module.exports = {
+  title: '浩',
+  description: '东隅已逝，桑榆非晚',
   base: '/my-blog/',
   dest: './dist',
-  title: '浩',
-  description: 'Just playing around'
+  themeConfig: {
+    lastUpdated: '最后更新时间',
+    repo: 'https://github.com/yuehaocc/my-blog',
+    repoLabel: 'Github',
+    head: [
+      [
+        'link',
+        { rel: 'shortcut icon', type: 'image/x-icon', href: '/my-blog/favicon.ico' },
+      ]
+    ],
+    nav: [
+      {
+        text: '前端基础',
+        link: '/base/',
+        items: [
+          { text: 'html', link: '/base/html/' },
+          { text: 'css', link: '/base/css/' },
+          { text: 'js', link: '/base/js/' }
+        ]
+      },
+      {
+        text: 'React',
+        link: '/react/',
+      },
+    ],
+    // sidebar: {
+    //   ...vueSidebar,
+    // },
+  },
 }
