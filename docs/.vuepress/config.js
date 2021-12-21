@@ -7,6 +7,7 @@ module.exports = {
     lastUpdated: '最后更新时间',
     repo: 'https://github.com/yuehaocc/my-blog',
     repoLabel: 'Github',
+    sidebar: 'auto',
     head: [
       [
         'link',
@@ -14,6 +15,10 @@ module.exports = {
       ]
     ],
     nav: [
+      {
+        text: '前端面试',
+        link: '/interview/',
+      },
       {
         text: '前端基础',
         link: '/base/',
