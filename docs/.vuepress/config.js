@@ -32,6 +32,10 @@ module.exports = {
         text: 'React',
         link: '/react/',
       },
+      {
+        text: '英语',
+        link: '/english/',
+      },
     ],
     // sidebar: {
     //   ...vueSidebar,
