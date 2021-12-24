@@ -33,6 +33,10 @@ module.exports = {
         link: '/react/',
       },
       {
+        text: '职业素养',
+        link: '/quality/',
+      },
+      {
         text: '英语',
         link: '/english/',
       },
