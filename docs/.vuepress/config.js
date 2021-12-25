@@ -33,6 +33,10 @@ module.exports = {
         link: '/react/',
       },
       {
+        text: 'TypeScript',
+        link: '/ts/',
+      },
+      {
         text: '职业素养',
         link: '/quality/',
       },
