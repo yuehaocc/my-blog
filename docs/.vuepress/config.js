@@ -33,6 +33,10 @@ module.exports = {
         link: '/react/',
       },
       {
+        text: '工作平台',
+        link: '/platform/',
+      },
+      {
         text: 'TypeScript',
         link: '/ts/',
         items: [
