@@ -1,5 +1,8 @@
 # TypeScript入门
 
+- [TypeScript入门](https://ts.xcatliu.com/advanced/string-literal-types.html)
+- [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
+
 ## 简介
 ### 安装
 #### 安装&检查
