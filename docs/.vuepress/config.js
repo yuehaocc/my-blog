@@ -42,6 +42,7 @@ module.exports = {
         items: [
           { text: 'TypeScript入门', link: '/ts/base/' },
           { text: 'TypeScript深入', link: '/ts/advance/' },
+          { text: 'TypeScript实践问题', link: '/ts/apply/' },
         ]
       },
       {
