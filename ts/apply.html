@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TypeScript实践问题 | 浩</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="东隅已逝，桑榆非晚">
+    
+    <link rel="preload" href="/my-blog/assets/css/0.styles.66c04e2d.css" as="style"><link rel="preload" href="/my-blog/assets/js/app.8152e977.js" as="script"><link rel="preload" href="/my-blog/assets/js/2.994f824b.js" as="script"><link rel="preload" href="/my-blog/assets/js/17.b8f819f3.js" as="script"><link rel="prefetch" href="/my-blog/assets/js/10.897dcd6a.js"><link rel="prefetch" href="/my-blog/assets/js/11.49051ff5.js"><link rel="prefetch" href="/my-blog/assets/js/12.53784144.js"><link rel="prefetch" href="/my-blog/assets/js/13.242fe32e.js"><link rel="prefetch" href="/my-blog/assets/js/14.dfe219fd.js"><link rel="prefetch" href="/my-blog/assets/js/15.c6700d0a.js"><link rel="prefetch" href="/my-blog/assets/js/16.db586582.js"><link rel="prefetch" href="/my-blog/assets/js/18.89a35b9e.js"><link rel="prefetch" href="/my-blog/assets/js/3.fb194368.js"><link rel="prefetch" href="/my-blog/assets/js/4.fbcf4621.js"><link rel="prefetch" href="/my-blog/assets/js/5.ec4b3f90.js"><link rel="prefetch" href="/my-blog/assets/js/6.27888615.js"><link rel="prefetch" href="/my-blog/assets/js/7.e23a1d77.js"><link rel="prefetch" href="/my-blog/assets/js/8.bd0e75ba.js"><link rel="prefetch" href="/my-blog/assets/js/9.8c2d5564.js">
+    <link rel="stylesheet" href="/my-blog/assets/css/0.styles.66c04e2d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/my-blog/" class="home-link router-link-active"><!----> <span class="site-name">浩</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/my-blog/interview/" class="nav-link">
+  前端面试
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端基础" class="mobile-dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-blog/base/html/" class="nav-link">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/base/css/" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/base/js/" class="nav-link">
+  js
+</a></li></ul></div></div><div class="nav-item"><a href="/my-blog/react/" class="nav-link">
+  React
+</a></div><div class="nav-item"><a href="/my-blog/platform/" class="nav-link">
+  工作平台
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="TypeScript" class="dropdown-title"><span class="title">TypeScript</span> <span class="arrow down"></span></button> <button type="button" aria-label="TypeScript" class="mobile-dropdown-title"><span class="title">TypeScript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-blog/ts/base/" class="nav-link">
+  TypeScript入门
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/ts/advance/" class="nav-link">
+  TypeScript深入
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/ts/apply/" class="nav-link">
+  TypeScript实践问题
+</a></li></ul></div></div><div class="nav-item"><a href="/my-blog/quality/" class="nav-link">
+  职业素养
+</a></div><div class="nav-item"><a href="/my-blog/english/" class="nav-link">
+  英语
+</a></div> <a href="https://github.com/yuehaocc/my-blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/my-blog/interview/" class="nav-link">
+  前端面试
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端基础" class="mobile-dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-blog/base/html/" class="nav-link">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/base/css/" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/base/js/" class="nav-link">
+  js
+</a></li></ul></div></div><div class="nav-item"><a href="/my-blog/react/" class="nav-link">
+  React
+</a></div><div class="nav-item"><a href="/my-blog/platform/" class="nav-link">
+  工作平台
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="TypeScript" class="dropdown-title"><span class="title">TypeScript</span> <span class="arrow down"></span></button> <button type="button" aria-label="TypeScript" class="mobile-dropdown-title"><span class="title">TypeScript</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-blog/ts/base/" class="nav-link">
+  TypeScript入门
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/ts/advance/" class="nav-link">
+  TypeScript深入
+</a></li><li class="dropdown-item"><!----> <a href="/my-blog/ts/apply/" class="nav-link">
+  TypeScript实践问题
+</a></li></ul></div></div><div class="nav-item"><a href="/my-blog/quality/" class="nav-link">
+  职业素养
+</a></div><div class="nav-item"><a href="/my-blog/english/" class="nav-link">
+  英语
+</a></div> <a href="https://github.com/yuehaocc/my-blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>TypeScript实践问题</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/my-blog/ts/apply.html#_1-keyof可以获取key作为联合类型-那么怎么获取值呢" class="sidebar-link">1 keyof可以获取key作为联合类型，那么怎么获取值呢</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/my-blog/ts/apply.html#_2-typescript如何将对象属性值的字面量作为联合类型" class="sidebar-link">2 TypeScript如何将对象属性值的字面量作为联合类型</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="typescript实践问题"><a href="#typescript实践问题" class="header-anchor">#</a> TypeScript实践问题</h1> <h2 id="_1-keyof可以获取key作为联合类型-那么怎么获取值呢"><a href="#_1-keyof可以获取key作为联合类型-那么怎么获取值呢" class="header-anchor">#</a> 1 keyof可以获取key作为联合类型，那么怎么获取值呢</h2> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">type</span> <span class="token class-name">Valueof<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span></span> <span class="token operator">=</span> <span class="token constant">T</span><span class="token punctuation">[</span><span class="token keyword">keyof</span> <span class="token constant">T</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token keyword">type</span> <span class="token class-name">mode</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  edit<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  save<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">type</span> <span class="token class-name">editSave</span> <span class="token operator">=</span> Valueof<span class="token operator">&lt;</span>mode<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="_2-typescript如何将对象属性值的字面量作为联合类型"><a href="#_2-typescript如何将对象属性值的字面量作为联合类型" class="header-anchor">#</a> 2 TypeScript如何将对象属性值的字面量作为联合类型</h2> <p>使用 1 中的方法</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">const</span> RestfulMethod <span class="token operator">=</span> <span class="token punctuation">{</span>
+  get<span class="token operator">:</span> <span class="token string">'GET'</span><span class="token punctuation">,</span>
+  post<span class="token operator">:</span> <span class="token string">'POST'</span><span class="token punctuation">,</span>
+  put<span class="token operator">:</span> <span class="token string">'PUT'</span><span class="token punctuation">,</span>
+  <span class="token keyword">delete</span><span class="token operator">:</span> <span class="token string">'DELETE'</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">type</span> <span class="token class-name">IRestfulMethod</span> <span class="token operator">=</span> <span class="token keyword">typeof</span> RestfulMethod<span class="token punctuation">;</span>
+<span class="token comment">// 此时IRestfulMethod：</span>
+<span class="token comment">// type IRestfulMethod = {</span>
+<span class="token comment">//     get: string;</span>
+<span class="token comment">//     post: string;</span>
+<span class="token comment">//     put: string;</span>
+<span class="token comment">//     delete: string;</span>
+<span class="token comment">// }</span>
+
+<span class="token keyword">type</span> <span class="token class-name">TypeRestfulMethod</span> <span class="token operator">=</span> IRestfulMethod<span class="token punctuation">[</span><span class="token keyword">keyof</span> IRestfulMethod<span class="token punctuation">;</span>
+<span class="token comment">// 此时TypeRestfulMethod：</span>
+<span class="token comment">// type TypeRestfulMethod = string</span>
+
+<span class="token comment">// 并不是期望的：</span>
+<span class="token keyword">type</span> <span class="token class-name">TypeRestfulMethod</span> <span class="token operator">=</span> <span class="token string">'GET'</span> <span class="token operator">|</span> <span class="token string">'POST'</span> <span class="token operator">|</span> <span class="token string">'PUT'</span> <span class="token operator">|</span> <span class="token string">'DELETE'</span>
+</code></pre></div><p>没办法只能去google，找到<a href="https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions" target="_blank" rel="noopener noreferrer">官网文档<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>描述如下：</p> <blockquote><p>TypeScript 3.4 introduces a new construct for literal values called const assertions. Its syntax is a type assertion with const in place of the type name (e.g. 123 as const). When we construct new literal expressions with const assertions, we can signal to the language that , no literal types in that expression should be widened (e.g. no going from &quot;hello&quot; to string)</p></blockquote> <p>大意就是说TypeScript 3.4之后除了个”常量断言“，支持在字面量后面直接加“as const&quot;来防止字面量类型自动扩大（widened, 或者翻译成泛化，还是其他？），比如
+// Type '&quot;hello&quot;'
+let x = &quot;hello&quot; as const;
+如果没有加as const的话，x的类型就是string，而加了后就限定成'hello'这个字面量。</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">const</span> modeA <span class="token operator">=</span> <span class="token punctuation">{</span>
+  edit<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  save<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token keyword">as</span> <span class="token keyword">const</span><span class="token punctuation">;</span>
+
+<span class="token keyword">type</span> <span class="token class-name">editSaveA</span> <span class="token operator">=</span> Valueof<span class="token operator">&lt;</span><span class="token keyword">typeof</span> modeA<span class="token operator">&gt;</span>
+
+<span class="token keyword">let</span> a<span class="token operator">:</span> editSaveA <span class="token operator">=</span> <span class="token number">3</span>
+<span class="token comment">// Type '3' is not assignable to type 'editSaveA'.ts(2322)</span>
+</code></pre></div><p>参考 <a href="https://zhuanlan.zhihu.com/p/406211160" target="_blank" rel="noopener noreferrer">深入理解 TypeScript如何将对象属性值的字面量作为联合类型<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">12/31/2021, 1:21:28 AM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/my-blog/assets/js/app.8152e977.js" defer></script><script src="/my-blog/assets/js/2.994f824b.js" defer></script><script src="/my-blog/assets/js/17.b8f819f3.js" defer></script>
+  </body>
+</html>
