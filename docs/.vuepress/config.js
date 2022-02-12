@@ -18,23 +18,30 @@ module.exports = {
       {
         text: '前端面试',
         link: '/interview/',
+        items: [
+          { text: '手写题', link: '/interview/handwriting/' },
+          { text: 'JS', link: '/interview/JS/' }
+        ]
+      },
+      {
+        text: 'JS',
+        link: '/JS/',
+        items: [
+          { text: 'ES5及以前', link: '/JS/es5/' },
+          { text: 'ES6及之后', link: '/JS/es6/' }
+        ]
       },
       {
         text: '前端基础',
         link: '/base/',
         items: [
           { text: 'html', link: '/base/html/' },
-          { text: 'css', link: '/base/css/' },
-          { text: 'JS专题', link: '/base/js/' }
+          { text: 'css', link: '/base/css/' }
         ]
       },
       {
         text: 'React',
         link: '/react/',
-      },
-      {
-        text: '工作平台',
-        link: '/platform/',
       },
       {
         text: 'TypeScript',
@@ -46,12 +53,13 @@ module.exports = {
         ]
       },
       {
-        text: '职业素养',
-        link: '/quality/',
-      },
-      {
-        text: '英语',
-        link: '/english/',
+        text: '其他',
+        link: '/else/',
+        items: [
+          { text: '职业素养', link: '/else/quality/' },
+          { text: '工作平台', link: '/else/platform/' },
+          { text: '英语', link: '/else/english/' },
+        ]
       },
     ],
     // sidebar: {
