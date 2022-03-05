@@ -20,15 +20,8 @@ module.exports = {
         link: '/interview/',
         items: [
           { text: '手写题', link: '/interview/handwriting/' },
+          { text: '算法', link: '/interview/algorithm/' },
           { text: 'JS', link: '/interview/JS/' }
-        ]
-      },
-      {
-        text: 'JS',
-        link: '/JS/',
-        items: [
-          { text: 'ES5及以前', link: '/JS/es5/' },
-          { text: 'ES6及之后', link: '/JS/es6/' }
         ]
       },
       {
@@ -36,7 +29,9 @@ module.exports = {
         link: '/base/',
         items: [
           { text: 'html', link: '/base/html/' },
-          { text: 'css', link: '/base/css/' }
+          { text: 'css', link: '/base/css/' },
+          { text: 'ES5及以前', link: '/base/es5/' },
+          { text: 'ES6及之后', link: '/base/es6/' }
         ]
       },
       {
