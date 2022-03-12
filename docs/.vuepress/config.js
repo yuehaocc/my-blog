@@ -16,22 +16,22 @@ module.exports = {
     ],
     nav: [
       {
+        text: '前端基础',
+        link: '/base/',
+        items: [
+          { text: 'JavaScript', link: '/base/js/' },
+          { text: 'ES6', link: '/base/es6/' },
+          { text: 'HTML', link: '/base/html/' },
+          { text: 'CSS', link: '/base/html/' },
+        ]
+      },
+      {
         text: '前端面试',
         link: '/interview/',
         items: [
           { text: '手写题', link: '/interview/handwriting/' },
           { text: '算法', link: '/interview/algorithm/' },
-          { text: 'JS', link: '/interview/JS/' }
-        ]
-      },
-      {
-        text: '前端基础',
-        link: '/base/',
-        items: [
-          { text: 'html', link: '/base/html/' },
-          { text: 'css', link: '/base/css/' },
-          { text: 'ES5及以前', link: '/base/es5/' },
-          { text: 'ES6及之后', link: '/base/es6/' }
+          // { text: 'JS', link: '/interview/JS/' }
         ]
       },
       {
