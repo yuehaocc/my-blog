@@ -18,6 +18,24 @@
   - 有道/欧陆，收录的读音很好
   - ~~牛津字典~~ 没有区分度，最不推荐
 
+### [ə]最懒的央元音以及央化现象
+- schwa sound [ə]懒人音
+- 央化现象:单词非重读音节，向[ə]靠拢，甚至直接变成[ə]
+
+下面举例：
+
+family
+英 [ˈfæməli]  美 [ˈfæməli]
+
+believe
+英 [bɪˈliːv]  美 [bɪˈliːv] 
+
+little
+英 [ˈlɪt(ə)l]  美 [ˈlɪtl] 
+![这是图片](https://cdn.nlark.com/yuque/0/2022/png/560914/1648915040161-33b7dc96-a2a1-4153-b751-7901faba9199.png?x-oss-process=image%2Fresize%2Cw_1168%2Climit_0)
+
+![这是图片](https://cdn.nlark.com/yuque/0/2022/png/560914/1648915046065-fb764c09-6fbd-443d-b4c0-571592f2f3fd.png?x-oss-process=image%2Fresize%2Cw_1182%2Climit_0)
+
 
 ## 英语词汇
 ### 数学运算
