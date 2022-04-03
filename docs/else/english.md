@@ -36,7 +36,8 @@ little
 
 ![这是图片](https://cdn.nlark.com/yuque/0/2022/png/560914/1648915046065-fb764c09-6fbd-443d-b4c0-571592f2f3fd.png?x-oss-process=image%2Fresize%2Cw_1182%2Climit_0)
 
-
+### [a:]
+### [e]
 ## 英语词汇
 ### 数学运算
 #### 加减乘除
