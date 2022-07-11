@@ -35,8 +35,11 @@ module.exports = {
         ]
       },
       {
-        text: 'React',
-        link: '/react/',
+        text: '课程学习',
+        link: '/learn/',
+        items: [
+          { text: '深入浅出 Vite', link: '/learn/深入浅出 Vite/' }
+        ]
       },
       {
         text: 'TypeScript',
