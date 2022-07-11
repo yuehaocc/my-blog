@@ -48,6 +48,10 @@ module.exports = {
         ]
       },
       {
+        text: '问题记录',
+        link: '/problems/',
+      },
+      {
         text: '其他',
         link: '/else/',
         items: [
